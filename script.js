@@ -81,7 +81,7 @@ const moreAvengers = {
 // console.log(moreAvengers);
 
 // 4e
-const {blackWidow: Nat, ... others} = moreAvengers;
+const {blackWidow: Nat, ...others} = moreAvengers;
 
 // 4f
 console.log(Nat, others);
